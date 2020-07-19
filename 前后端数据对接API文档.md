@@ -1,4 +1,4 @@
-###1、首页数据
+1、首页数据
 
 ```
 GET /phone/index
@@ -44,7 +44,7 @@ GET /phone/index
 }
 ```
 
-###2、根据类型查询手机
+2、根据类型查询手机
 
 ```
 GET /phone/findByCategoryType
@@ -82,7 +82,7 @@ categoryType: 1
 }
 ```
 
-###3、查询手机规格
+3、查询手机规格
 
 ```
 GET /phone/findSpecsByPhoneId
@@ -146,7 +146,7 @@ phoneId: 1
 }
 ```
 
-###4、查询地址
+4、查询地址
 
 ```
 GET /address/list
@@ -176,7 +176,7 @@ GET /address/list
 }
 ```
 
-### 5、创建地址
+5、创建地址
 
 ```
 POST /address/create
@@ -193,9 +193,7 @@ POST /address/create
   city: "北京市"
   county: "东城区"
   areaCode: "110101"
-  postalCode: ""
   addressDetail: "168号306室"
-  isDefault: false
 }
 ```
 
@@ -209,7 +207,7 @@ POST /address/create
 }
 ```
 
-### 6、修改地址
+6、修改地址
 
 ```
 PUT /address/update
@@ -240,7 +238,7 @@ PUT /address/update
 }
 ```
 
-###7、创建订单
+7、创建订单
 
 ```
 POST /order/create
@@ -270,7 +268,7 @@ POST /order/create
 }
 ```
 
-###8、订单详情
+8、订单详情
 
 ```
 GET /order/detail
@@ -305,7 +303,7 @@ orderId: "1586253884545138376"
 }
 ```
 
-###9、支付订单
+9、支付订单
 
 ```
 PUT /order/pay
